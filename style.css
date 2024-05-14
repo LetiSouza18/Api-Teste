@@ -1,0 +1,15 @@
+
+.font{
+    font-weight: 800;
+    font-family: Inter;
+}
+.fontnormal{
+    font-weight: 500;
+    font-family: Inter;
+}
+.space{
+    margin-bottom: 350px;
+}
+.smallspace{
+    margin-bottom: 100px;
+}
