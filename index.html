@@ -25,10 +25,10 @@
             <div class="my-4 me-5">
                 <ul class="nav justify-content-end">
                     <li class="nav-item">
-                        <a class="font nav-link active text-white fs-5" aria-current="page" href="#">Endereços</a>
+                        <a class="font nav-link active text-white fs-5" aria-current="page" href="#resultado">Endereços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="font nav-link text-white fs-5" href="#">Previsão de tempo</a>
+                        <a class="font nav-link text-white fs-5" href="#resultado">Previsão de tempo</a>
                     </li>
                 </ul>
             </div>
@@ -75,7 +75,7 @@
             </div>
             <div class=" mt-5 mx-4 pt-5 pb-3 row justify-content-center">
                 <div class="col-8">
-                    <button type="button" class="btn btn-primary w-100 fs-3 fw-semibold shadow" onclick="getAddressByCep(), getTemperature()">Acessar</button>
+                    <a href="#resultado"><button type="button" class="btn btn-primary w-100 fs-3 fw-semibold shadow" onclick="getAddressByCep(), getTemperature()">Acessar</button></a>
                 </div>
             </div>
         </div>
@@ -84,7 +84,7 @@
         <div class="space"></div>
 
         <!--Resultado do CEP-->
-        <div class="container w-60 mt-5 pt-5 ">
+        <div class="container w-60 mt-5 pt-5" id="resultado">
             <div class="ms-3 d-flex flex-row justify-content-evenly align-items-center">
                 <h1 class="font">Resultado da busca por CEP:</h1>
                 <img class="mb-5" src="./img/cep.svg">
